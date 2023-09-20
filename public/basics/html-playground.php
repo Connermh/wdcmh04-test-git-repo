@@ -34,5 +34,21 @@
 
         </form>
 
+        <br>Below is a dropdown box<br>
+        <form>
+            <label for="cars">Choose a car:</label>
+            <select id="cars" name="cars" size="3">
+                <option value=""></option>
+                <option value="volvo">Volvo</option>
+                <option value="saab">Saab</option>
+                <option value="fiat">Fiat</option>
+                <option value="audi">Audi</option>
+            </select>
+        </form>
+
+        <form>
+            <button type="button" onclick="alert('Hello World!')">Click Me!</button> <!-- alert() creates a popup at the top of the page -->
+        </form>
+
     </p>
 </html>

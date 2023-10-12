@@ -6,7 +6,7 @@ function dbConnect()
     // database login parameters
     $serverName = "127.0.0.1";
     $userName = "homestead";
-    $dbName = "c2p8_database";
+    $dbName = "addressbook_database";
     $password = "secret";
 
     //variable $conn which is defined as a new class object instance of the database
